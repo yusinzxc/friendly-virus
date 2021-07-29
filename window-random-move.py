@@ -6,8 +6,8 @@ root = Tk()
 
 time = 500
 def mover():
-	loona = [
-	"Stan","Loona","Stan Loona"
+	virus = [
+	"Virus","Awit","virus to" 
 	]
 	x = 360
 	y = 684
@@ -17,7 +17,7 @@ def mover():
 	ry = randint(0,y)
 	hr = randint(50,h)
 	hw = randint(50,w)
-	rt = choice(loona)
+	rt = choice(virus)
 	
 	root.title(rt)
 	root.geometry(f"{hr}x{hw}")
